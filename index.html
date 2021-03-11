@@ -2,58 +2,161 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Loopstudios landing page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  About
-  Careers
-  Events
-  Products
-  Support
+  <header>
+    <div class="content">
+        <nav>
+            <img id="logo" src="images/logo.svg">
+            <div class="nav-link-container alata-font">
+                <div class="nav-item">
+                    <a href="#" class="white-text">About</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="white-text">Careers</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="white-text">Events</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="white-text">Products</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="white-text">Support</a>
+                </div>
+            </div>
+        </nav>
+        <div class="header-box josefin-font white-text uppercase">
+            <p>Immersive</p>
+            <p>Experiences</p>
+            <p>That Deliver</p>
+        </div>
+    </div>
+</header>
 
-  Immersive experiences that deliver
-
-  The leader in interactive VR
-
-  Founded in 2011, Loopstudios has been producing world-class virtual reality 
-  projects for some of the best companies around the globe. Our award-winning 
-  creations have transformed businesses through digital experiences that bind 
-  to their brand.
-
-  Our creations
-
-  See all
-
-  Deep earth
-  Night arcade
-  Soccer team VR
-  The grid
-  From up above VR
-  Pocket borealis
-  The curiosity
-  Make it fisheye
-
-  About
-  Careers
-  Events
-  Products
-  Support
-
-  © 2021 Loopstudios. All rights reserved.
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+<main class="content">
+    <section class="first-section">
+        <picture>
+            <img src="images/desktop/image-interactive.jpg">
+        </picture>
+        <div class="home-text-container">
+            <p class="titles uppercase josefin-font very-dg-text">The Leader in <br> interactive vr</p>
+            <p class="alata-font dg-text">Founded in 2011, Loopstudios has been producing world-class
+                virtual reality projects for some of the best companies around the
+                globe. Our award-winning creations have transformed
+                businesses through digital experiences that bind to their brand.</p>
+        </div>
+    </section>
+    <section class="creations-section">
+        <div class="section-header">
+            <p class="josefin-font uppercase titles very-dg-text">Our creations</p>
+            <button class="default-btn uppercase alata-font">see all</button>
+        </div>
+        <div class="creations-container">
+            <div class="creation">
+                <div class="creation-overlay"></div>
+                <picture>
+                  <img src="images/desktop/image-deep-earth.jpg">
+                </picture>
+                <p class="image-caption uppercase josefin-font white-text">deep earth</p>
+            </div>
+            <div class="creation">
+                <div class="creation-overlay"></div>
+                <picture>
+                    <img src="images/desktop/image-night-arcade.jpg">
+                </picture>
+                <p class="image-caption uppercase josefin-font white-text">night arcade</p>
+            </div>
+            <div class="creation">
+                <div class="creation-overlay"></div>
+                <picture>
+                    <img src="images/desktop/image-soccer-team.jpg">
+                </picture>
+                <p class="image-caption uppercase josefin-font white-text">soccer team vr</p>
+            </div>
+            <div class="creation">
+                <div class="creation-overlay"></div>
+                <picture>
+                    <img src="images/desktop/image-grid.jpg">
+                </picture>
+                <p class="image-caption uppercase josefin-font white-text">the grid</p>
+            </div>
+            <div class="creation">
+                <div class="creation-overlay"></div>
+                <picture>
+                    <img src="images/desktop/image-from-above.jpg">
+                </picture>
+                <p class="image-caption uppercase josefin-font white-text">from up above vr</p>
+            </div>
+            <div class="creation">
+                <div class="creation-overlay"></div>
+                <picture>
+                    <img src="images/desktop/image-pocket-borealis.jpg">
+                </picture>
+                <p class="image-caption uppercase josefin-font white-text">pocket borealis</p>
+            </div>
+            <div class="creation">
+                <div class="creation-overlay"></div>
+                <picture>
+                    <img src="images/desktop/image-curiosity.jpg">
+                </picture>
+                <p class="image-caption uppercase josefin-font white-text">the curiosity</p>
+            </div>
+            <div class="creation">
+                <div class="creation-overlay"></div>
+                <picture>
+                    <img src="images/desktop/image-fisheye.jpg">
+                </picture>
+                <p class="image-caption uppercase josefin-font white-text">make it fisheye</p>
+            </div>
+        </div>
+    </section>  
+</main>
+<footer class="bg-blk">
+    <div class="content">
+        <div>
+            <img class="footer-logo" src="images/logo.svg">
+            <div class="nav-link-container alata-font">
+                <div class="nav-item">
+                    <a href="#" class="white-text">About</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="white-text">Careers</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="white-text">Events</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="white-text">Products</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="white-text">Support</a>
+                </div>
+            </div>
+        </div>
+        <div>
+           <div class="follow-me-social">
+                <div>
+                    <img src="images/icon-facebook.svg">
+                </div>
+                <div>
+                    <img src="images/icon-twitter.svg">
+                </div>
+                <div>
+                    <img src="images/icon-pinterest.svg">
+                </div>
+                <div>
+                    <img src="images/icon-instagram.svg">
+                </div>
+            </div>
+           <span class="dg-text alata-font">© 2021 Loopstudios. All rights reserved.</span>
+        </div>    
+      </div>
+    </footer>
+  </body>
 </html>
